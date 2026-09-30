@@ -1,0 +1,22 @@
+:root {
+  --bg: #05080d;
+  --fg: #d7e6ef;
+  --muted: #7f95a3;
+  --accent: #5fd4f4;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 17px/1.6 system-ui, "Segoe UI", Roboto, sans-serif;
+}
+main { max-width: 42rem; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
+h1 { font-size: 2.2rem; letter-spacing: 0.04em; margin: 0.2rem 0 1rem; }
+h2 { font-size: 1.15rem; margin-top: 2rem; color: var(--accent); }
+a { color: var(--accent); }
+.kicker { text-transform: uppercase; letter-spacing: 0.18em; font-size: 0.8rem; color: var(--muted); margin: 0; }
+.kicker a { color: var(--muted); text-decoration: none; }
+.meta { color: var(--muted); font-size: 0.9rem; }
+nav { display: flex; gap: 1.5rem; margin-top: 2rem; }
